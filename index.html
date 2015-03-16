@@ -1,0 +1,29 @@
+---
+layout: default
+title: Daniel Brandenburg
+---
+
+<div class="container" onscroll="scrollCount()">
+
+	<div class="col-md-8 col-md-offset-2">
+
+		<div class="row vcenter-parent">
+		
+			<div class="col-md-4">
+
+				<img src="{{ "/img/danny.jpg" | prepend: site.baseurl }}" alt="Daniel Brandenburg" class="img-circle">
+			</div>
+			<div class="col-md-8 vspace-4">
+				<p class="lead "> Hi, my name is Daniel Brandenburg. I am currently a PhD student at Rice University </p>
+			</div>
+
+		</div>
+		<div class="row vspace-2">
+			<div class="col-md-10 col-md-offset-1">
+				{% markdown cv.md %}
+			</div>
+		</div>
+
+	</div>
+	
+</div>

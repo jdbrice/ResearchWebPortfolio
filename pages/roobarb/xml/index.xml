@@ -1,0 +1,62 @@
+<index xmlns="http://jessevdk.github.com/cldoc/1.0">
+  <namespace name="jdb" ref="jdb#jdb">
+    <brief>A framework for using ROOT more efficiently.</brief>
+    <class name="ChainLoader" ref="jdb::ChainLoader#jdb::ChainLoader">
+      <brief>Static use class for loading .root files into a TChain</brief>
+    </class>
+    <class name="ConfigPoint" ref="jdb::ConfigPoint#jdb::ConfigPoint">
+      <brief>Config Point easily loads (x, y) points from XmlConfigs</brief>
+    </class>
+    <class name="ConfigRange" ref="jdb::ConfigRange#jdb::ConfigRange">
+      <brief>ConfigRange easily loads (min -&gt; max) ranges from XmlConfigs</brief>
+    </class>
+    <class name="DataSource" ref="jdb::DataSource#jdb::DataSource" />
+    <class name="EvaluatedLeaf" ref="jdb::EvaluatedLeaf#jdb::EvaluatedLeaf">
+      <brief>DataSource leaf evaluated from a function string</brief>
+    </class>
+    <class name="HistoAnalyzer" ref="jdb::HistoAnalyzer#jdb::HistoAnalyzer">
+      <brief>Base class for creating histogram analysis projects</brief>
+    </class>
+    <class name="HistoBook" ref="jdb::HistoBook#jdb::HistoBook">
+      <brief>A book keeper and helper for storing and using ROOT histograms</brief>
+    </class>
+    <class name="legendAlignment" ref="jdb::legendAlignment#jdb::legendAlignment">
+      <brief>For legend Alignment</brief>
+    </class>
+    <class name="Logger" ref="jdb::Logger#jdb::Logger">
+      <brief>An all purpose logging utility with log level functionality.</brief>
+      <class name="NullBuffer" ref="jdb::Logger::NullBuffer#jdb::Logger::NullBuffer">
+        <brief>*</brief>
+      </class>
+      <class name="NullStream" ref="jdb::Logger::NullStream#jdb::Logger::NullStream" />
+    </class>
+    <class name="LoggerConfig" ref="jdb::LoggerConfig#jdb::LoggerConfig">
+      <brief>A class for creating Loggers from Xml Configs</brief>
+    </class>
+    <class name="Reporter" ref="jdb::Reporter#jdb::Reporter">
+      <brief>Create PDF Reports in ROOT</brief>
+    </class>
+    <class name="TaskProgress" ref="jdb::TaskProgress#jdb::TaskProgress">
+      <brief>Task Progress</brief>
+    </class>
+    <class name="TaskTimer" ref="jdb::TaskTimer#jdb::TaskTimer">
+      <brief>Task Timer</brief>
+    </class>
+    <class name="TreeAnalyzer" ref="jdb::TreeAnalyzer#jdb::TreeAnalyzer">
+      <brief>Boiler for analyzing data distributed accross TTrees in many files</brief>
+    </class>
+    <class name="XmlConfig" ref="jdb::XmlConfig#jdb::XmlConfig">
+      <brief>Use xml formatted config files easily in projects</brief>
+    </class>
+  </namespace>
+  <namespace name="jdbs" ref="jdbs#jdbs">
+    <brief> Namespace used only in interactive ROOT scripts</brief>
+    <class name="TaskProgress" ref="jdbs::TaskProgress#jdbs::TaskProgress">
+      <brief>See jdb::TaskProgress</brief>
+    </class>
+    <class name="TaskTimer" ref="jdbs::TaskTimer#jdbs::TaskTimer">
+      <brief>See jdb::TaskTimer</brief>
+    </class>
+  </namespace>
+  <report name="Documentation generator" ref="report" />
+</index>

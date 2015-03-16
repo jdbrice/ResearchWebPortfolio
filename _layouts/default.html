@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+	{% include head.html %}
+
+  	<body>
+
+		<div class="mp-container">
+			<!-- Push Wrapper -->
+			<div class="mp-pusher" id="mp-pusher">
+
+				{% include header.html %}
+
+				{% include mp-nav.html %}
+
+				<div id="scroller" class="scroller" ><!-- this is for emulating position fixed of the nav -->
+					<div id="scroller-innner" class="scroller-inner">
+					<!-- Top Navigation -->
+
+						{{ content }}
+						
+					</div><!-- /scroller-inner -->
+					{% include footer.html %}
+				</div><!-- /scroller -->
+			</div><!-- /pusher -->
+		</div><!-- /container -->
+
+		<script src="{{ "/js/classie.js" | prepend: site.baseurl }}"></script>
+		<!--<script src="{{ "" | prepend: site.baseurl }}"></script>-->
+		<script src="{{ "/js/mlpushmenu.js" | prepend: site.baseurl }}"></script>
+		<script>
+			new mlPushMenu( document.getElementById( 'mp-menu' ), document.getElementById( 'trigger' ) );
+		</script>
+
+
+  	</body>
+
+
+
+</html>

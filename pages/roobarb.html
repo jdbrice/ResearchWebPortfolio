@@ -1,0 +1,22 @@
+---
+layout: default
+title: Roobarb Library
+permalink: /projects/roobarb/
+categories: [ 'projects' ]
+---
+
+<script type="text/javascript">
+	function sizeFrame(){
+		var footerHeight = document.getElementById('footer').offsetHeight;
+		console.log( "footer H : " + footerHeight );
+		var w = window,
+		    d = document,
+		    e = d.documentElement,
+		    g = d.getElementsByTagName('body')[0],
+		    x = w.innerWidth || e.clientWidth || g.clientWidth,
+		    y = w.innerHeight|| e.clientHeight|| g.clientHeight;
+		var frm = document.getElementById('docs');
+		frm.height = y - footerHeight - 110; // header padding also
+	}
+</script>
+<iframe id="docs" src="{{ "/pages/roobarb/index.html" | prepend: site.baseurl }}" frameborder="0" width="100%" scrolling="yes" height="900px" onload="sizeFrame()"></iframe>

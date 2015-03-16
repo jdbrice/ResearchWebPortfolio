@@ -1,0 +1,29 @@
+<!-- mp-menu -->
+<nav id="mp-menu" class="mp-menu"/>
+	<div class="mp-level">
+		<a href="{{ site.baseurl }}/"><h2 class="">JDB</h2></a>
+		<ul>
+			{% for page in site.pages %}
+				{% if page.title and page.categories contains 'main' %}
+					<li class="icon icon-arrow-left">
+						<a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+						{% if page.sub-menu %}
+							<div class="mp-level">
+							<a href="/"><h2 class="icon icon-world">{{page.sub-menu}}</h2></a>
+							<ul>
+								{% for subpage in site.pages %}
+								{% if subpage.title and subpage.categories contains page.sub-menu and subpage.title != page.title %}
+									<li class="">
+										<a class="page-link" href="{{ subpage.url | prepend: site.baseurl }}">{{ subpage.title }}</a>
+									</li>
+								{% endif %}
+								{% endfor %}
+							</ul>
+						{% endif %}
+					</li>
+				{% endif %}
+			{% endfor %}
+		</ul>
+	</div>
+
+</nav>
