@@ -1,0 +1,57 @@
+<!--
+---
+layout: default
+title: STAR softare codex
+permalink: /projects/STAR-codex/
+categories: [ 'projects' ]
+---
+-->
+
+<div class="container">
+	<div class="col-md-8 col-md-offset-2">
+		<div id="users">
+			<input class="search" placeholder="Search" />
+			<!--<button class="sort" data-sort="name">
+			  Sort by name
+			</button>-->
+
+			<ul class="list"></ul>
+
+		</div>
+	</div>
+</div>
+
+<script type="text/javascript" src="https://rawgit.com/jdbrice/147f78bbaa876247f600/raw/1fac383b3369a1a3d1a0bc3db4d99c18881754f1/jdbrice_codex.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/list.js/1.1.1/list.min.js"></script>
+<script type="text/javascript">
+	//console.log( jdbrice_codex[ "code" ][ 0 ] );
+var options = {
+  valueNames: [ 'name', 'value', 'owner' ],
+  item: '<li><h3 class="name"></h3><p class="owner list-owner"> : </p><p class="value list-value"></p></li>'
+};
+
+var values = jdbrice_codex[ "code" ];
+/*[{
+    name: 'Jonny Strömberg',
+    born: 1986
+  },
+  {
+    name: 'Jonas Arnklint',
+    born: 1985
+  },
+  {
+    name: 'Martina Elm',
+    born: 1986
+}];*/
+
+var userList = new List('users', options, values);
+/*
+userList.add({
+  name: "Gustaf Lindqvist",
+  born: 1983
+});*/
+
+</script>
+
+
+

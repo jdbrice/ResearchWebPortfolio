@@ -11,4 +11,5 @@ twitter_username:
 github_username:  jdbrice
 
 # Build settings
-markdown: kramdown
+#markdown: kramdown
+markdown: redcarpet

@@ -1,7 +1,7 @@
 ##EDU 
 
 * 2013 - Current, Rice University : Seeking a PhD in Heavy Ion Physics  
-	* GPA 3.92 / 4.0
+	* GPA XXX / 4.0
   
 * 2009 - 2013, University of Florida : Major in Physics, minor in Mathematics
 	* GPA 3.84 / 4.0
