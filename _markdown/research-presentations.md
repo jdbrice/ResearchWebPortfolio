@@ -2,11 +2,20 @@
 
 <br/><br/>
 
+#### Follow-up : Run16 Vpd L0 Vertex Resolution Plan-b 
+* STAR Trigger Board Meeting, Feb 22, 2016 : [Run16_Trigger_Board_Follow_up.pdf](https://drupal.star.bnl.gov/STAR/system/files/Run16_Trigger_Board_Feb_22_Follow_up.pdf)
+<br/><br/>
+
+#### Run16 Vpd L0 Vertex Resolution Plan-b 
+* STAR Trigger Board Meeting, Feb 22, 2016 : [Run16_Trigger_Board_Feb_22.pdf](https://drupal.star.bnl.gov/STAR/system/files/Run16_Trigger_Board_Feb_22.pdf)
+<br/><br/>
+
 #### Streamlined Analysis Tasks with Condor
 * Rice Heavy Ion group, weekly meeting : [Streamlined_analysis.pdf](http://www.star.bnl.gov/protected/lfspectra/jdb/teaching/condor_dag.pdf)
 <br/><br/>
 
-#### Quark-Matter 2015 
+#### Identified Light and Strange Hadron Spectra at $$\sqrt{ s_{NN} }$$ = 14.5 GeV and Systematic Study of Baryon/Meson Effect at Intermediate Transverse Momentum with STAR at RHIC BES I
+* Quark-Matter 2015, Open Heavy Flavor and Strangeness, Monday, Sep 28th 2015 : [QM_Brandenburg.pdf](https://indico.cern.ch/event/355454/session/7/contribution/606/attachments/1160742/1671079/QM_2015_Brandenburg_v9.pdf)
 <br/><br/> 
 
 #### Pre-Quark Matter STAR Collaboration Meeting
