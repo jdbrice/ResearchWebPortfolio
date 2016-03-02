@@ -4,13 +4,18 @@
     <class name="ChainLoader" ref="jdb::ChainLoader#jdb::ChainLoader">
       <brief>Static use class for loading .root files into a TChain</brief>
     </class>
+    <class name="ConfigFunction" ref="jdb::ConfigFunction#jdb::ConfigFunction">
+      <brief>Loads a TF1 or subclass function from an Xml Config</brief>
+    </class>
     <class name="ConfigPoint" ref="jdb::ConfigPoint#jdb::ConfigPoint">
       <brief>Config Point easily loads (x, y) points from XmlConfigs</brief>
     </class>
     <class name="ConfigRange" ref="jdb::ConfigRange#jdb::ConfigRange">
       <brief>ConfigRange easily loads (min -&gt; max) ranges from XmlConfigs</brief>
     </class>
-    <class name="DataSource" ref="jdb::DataSource#jdb::DataSource" />
+    <class name="DataSource" ref="jdb::DataSource#jdb::DataSource">
+      <brief>Automatically maps tree branches and leaves</brief>
+    </class>
     <class name="EvaluatedLeaf" ref="jdb::EvaluatedLeaf#jdb::EvaluatedLeaf">
       <brief>DataSource leaf evaluated from a function string</brief>
     </class>
@@ -36,6 +41,7 @@
     <class name="Reporter" ref="jdb::Reporter#jdb::Reporter">
       <brief>Create PDF Reports in ROOT</brief>
     </class>
+    <class name="RooPlotLib" ref="jdb::RooPlotLib#jdb::RooPlotLib" />
     <class name="TaskProgress" ref="jdb::TaskProgress#jdb::TaskProgress">
       <brief>Task Progress</brief>
     </class>
@@ -49,14 +55,6 @@
       <brief>Use xml formatted config files easily in projects</brief>
     </class>
   </namespace>
-  <namespace name="jdbs" ref="jdbs#jdbs">
-    <brief> Namespace used only in interactive ROOT scripts</brief>
-    <class name="TaskProgress" ref="jdbs::TaskProgress#jdbs::TaskProgress">
-      <brief>See jdb::TaskProgress</brief>
-    </class>
-    <class name="TaskTimer" ref="jdbs::TaskTimer#jdbs::TaskTimer">
-      <brief>See jdb::TaskTimer</brief>
-    </class>
-  </namespace>
+  <class name="ConfigGraph" ref="ConfigGraph#ConfigGraph" />
   <report name="Documentation generator" ref="report" />
 </index>

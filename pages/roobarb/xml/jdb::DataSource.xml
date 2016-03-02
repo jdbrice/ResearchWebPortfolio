@@ -1,10 +1,8 @@
 <class xmlns="http://jessevdk.github.com/cldoc/1.0" abstract="true" id="jdb::DataSource" name="DataSource">
-  <doc>
-DataSource automatically decomposes and addresses
+  <brief>Automatically maps tree branches and leaves</brief>
+  <doc>DataSource automatically decomposes and addresses
 TTree structures so you don't need to make a new
 class for every new TTree structure.
-
-Automatically maps tree branches and leaves
 
 </doc>
   <methodtemplate id="jdb::DataSource::get" name="get">
@@ -96,6 +94,11 @@ This method is required for Alias or Evaluated Leaves</doc>
       <doc>Name of variable to get</doc>
       <type name="string" />
     </argument>
+  </method>
+  <method id="jdb::DataSource::getTreeName" name="getTreeName">
+    <return>
+      <type name="string" />
+    </return>
   </method>
   <method id="jdb::DataSource::operator()" name="operator()">
     <brief>() overload</brief>
@@ -244,6 +247,18 @@ Makes evaluated leafs from existing ones from teh config file
     <return>
       <type builtin="yes" name="void" />
     </return>
+  </method>
+  <method abstract="yes" access="protected" id="jdb::DataSource::mapBranch" name="mapBranch">
+    <brief>maps the sub branches and leaves of a branch</brief>
+    <return>
+      <type builtin="yes" name="void" />
+    </return>
+    <argument id="jdb::DataSource::mapBranch::br" name="br">
+      <type name="TBranchElement" qualifier="*" />
+    </argument>
+    <argument id="jdb::DataSource::mapBranch::name" name="name">
+      <type name="string" />
+    </argument>
   </method>
   <method abstract="yes" access="protected" id="jdb::DataSource::mapTree" name="mapTree">
     <brief>Maps out the branch and leaf attributes of the tree</brief>

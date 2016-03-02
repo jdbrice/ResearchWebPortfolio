@@ -1,5 +1,18 @@
 ##Research presentations
 
+<br/><br/>
+
+#### Streamlined Analysis Tasks with Condor
+* Rice Heavy Ion group, weekly meeting : [Streamlined_analysis.pdf](http://www.star.bnl.gov/protected/lfspectra/jdb/teaching/condor_dag.pdf)
+<br/><br/>
+
+#### Quark-Matter 2015 
+<br/><br/> 
+
+#### Pre-Quark Matter STAR Collaboration Meeting
+* LFS Parallel & Plenary Sessions, Sept 23 - 26, 2015 : [QM_Readiness.pdf](http://www.star.bnl.gov/protected/lfspectra/jdb/run14/AuAu15/pidRcp/QM_Readiness_08_14_15.pdf)
+<br/><br/>
+
 #### Quark Matter Readiness Update
 * LFS PWG, August 14, 2015 : [QM_Readiness.pdf](http://www.star.bnl.gov/protected/lfspectra/jdb/run14/AuAu15/pidRcp/QM_Readiness_08_14_15.pdf)
 <br/><br/>
