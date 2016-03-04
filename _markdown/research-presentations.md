@@ -2,6 +2,10 @@
 
 <br/><br/>
 
+#### Identified Light and Strange Hadron Spectra @ $$\sqrt{ s_{NN} }$$ = 14.5 GeV with STAR at RHIC BES I
+* Winter Workshop on Nuclear Dynamics, Feb 29, 2016 : [WWND_2016.pdf](https://indico.cern.ch/event/435555/contribution/10/attachments/1235510/1813810/WWND_2016_James_Brandenburg.pdf)
+<br/><br/>
+
 #### Follow-up : Run16 Vpd L0 Vertex Resolution Plan-b 
 * STAR Trigger Board Meeting, Feb 22, 2016 : [Run16_Trigger_Board_Follow_up.pdf](https://drupal.star.bnl.gov/STAR/system/files/Run16_Trigger_Board_Feb_22_Follow_up.pdf)
 <br/><br/>
