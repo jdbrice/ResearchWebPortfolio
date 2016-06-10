@@ -1,0 +1,78 @@
+<class xmlns="http://jessevdk.github.com/cldoc/1.0" id="jdb::TaskRunner" name="TaskRunner">
+  <base access="public">
+    <type name="ITaskRunner" />
+  </base>
+  <base access="public">
+    <type name="IConfig" />
+  </base>
+  <base access="public">
+    <type name="IObject" />
+  </base>
+  <subclass access="public" name="TreeAnalyzer" ref="jdb::TreeAnalyzer#jdb::TreeAnalyzer">
+    <brief>Boiler for analyzing data distributed accross TTrees in many files</brief>
+  </subclass>
+  <constructor id="jdb::TaskRunner::TaskRunner" name="TaskRunner" />
+  <destructor id="jdb::TaskRunner::~TaskRunner" name="~TaskRunner" virtual="yes" />
+  <method id="jdb::TaskRunner::classname" name="classname" virtual="yes">
+    <return>
+      <type builtin="yes" name="char" qualifier=" const *" />
+    </return>
+  </method>
+  <method id="jdb::TaskRunner::init" name="init" virtual="yes">
+    <return>
+      <type builtin="yes" name="void" />
+    </return>
+    <argument id="jdb::TaskRunner::init::_config" name="_config">
+      <type name="XmlConfig" ref="jdb::XmlConfig#jdb::XmlConfig" />
+    </argument>
+    <argument id="jdb::TaskRunner::init::_nodePath" name="_nodePath">
+      <type name="string" />
+    </argument>
+    <argument id="jdb::TaskRunner::init::_jobIndex" name="_jobIndex">
+      <type builtin="yes" name="int" />
+    </argument>
+  </method>
+  <method id="jdb::TaskRunner::init" name="init" virtual="yes">
+    <return>
+      <type builtin="yes" name="void" />
+    </return>
+    <argument id="jdb::TaskRunner::init::_config" name="_config">
+      <type name="XmlConfig" ref="jdb::XmlConfig#jdb::XmlConfig" />
+    </argument>
+    <argument id="jdb::TaskRunner::init::_nodePath" name="_nodePath">
+      <type name="string" />
+    </argument>
+    <argument id="jdb::TaskRunner::init::_fileList" name="_fileList">
+      <type name="string" />
+    </argument>
+    <argument id="jdb::TaskRunner::init::_jobPostfix" name="_jobPostfix">
+      <type name="string" />
+    </argument>
+  </method>
+  <method id="jdb::TaskRunner::init" name="init" virtual="yes">
+    <brief> This is where you should set up your task</brief>
+    <return>
+      <type builtin="yes" name="void" />
+    </return>
+  </method>
+  <method id="jdb::TaskRunner::run" name="run" virtual="yes">
+    <return>
+      <type builtin="yes" name="void" />
+    </return>
+  </method>
+  <method access="protected" id="jdb::TaskRunner::make" name="make" virtual="yes">
+    <return>
+      <type builtin="yes" name="void" />
+    </return>
+  </method>
+  <method access="protected" id="jdb::TaskRunner::postMake" name="postMake" virtual="yes">
+    <return>
+      <type builtin="yes" name="void" />
+    </return>
+  </method>
+  <method access="protected" id="jdb::TaskRunner::preMake" name="preMake" virtual="yes">
+    <return>
+      <type builtin="yes" name="void" />
+    </return>
+  </method>
+</class>

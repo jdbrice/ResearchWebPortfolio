@@ -1,5 +1,11 @@
 
-@import url(http://fonts.googleapis.com/css?family=PT+Sans);
+// @import url(http://fonts.googleapis.com/css?family=PT+Sans);
+
+@font-face{
+	font-family: 'PT Sans';
+	src: url( fonts/PT_Sans-Web-Regular.ttf )
+}
+
 header{
 	padding-top: 15px;
 	font-family: 'PT Sans', sans-serif;

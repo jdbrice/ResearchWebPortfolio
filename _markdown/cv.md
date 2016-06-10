@@ -27,6 +27,16 @@
 	* Developed real-time ultra high dynamic range (UHDR) imaging algorithms  
 	* Collaboration with PixeLink Inc.
 
+##Conference Presentations & Seminars
+* 15th Quark Matter 2015, September 28th, 2015 :   
+	* Identified Light & Strange Hadron Spectra at $$\sqrt{s_{NN}}$$ = 14.5 GeV and Systematic Study of Baryon/Meson Effect at Intermediate Transverse Momentum with STAR at RHIC BES I
+* 32nd Winter Workshop on Nuclear Dynamics, February 29, 2016 :    
+	* Identified Light and Strange Hadron Spectra at $$\sqrt{s_{NN}}$$ = 14.5 GeV with STAR at RHIC
+* STAR Analysis Seminar   
+	* Analysis of the Identified pion, kaon and proton Spectra in Au+Au Collisions at $$\sqrt{s_{NN}}$$ = 14.5 GeV, February 24th, 2016
+
+
+
 ##Awards & Honors
 * Sam & Helen Worden Fellowship 2013 - 2014
 * Presenter at the 125th Sigma Xi International Research Symposium  
