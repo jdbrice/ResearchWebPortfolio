@@ -7,6 +7,10 @@
 * Published Proceedings, Journal of Physics : Conference Series
 <br/><br/>
 
+#### Identified $$\pi$$, K, $$p$$ Spectra in Au+Au Collisions at $$\sqrt{s_{NN}}$$ = 14.5 GeV
+* STAR-BNL Bi-Weekly Spectra Analysis Meeting, Feb 24, 2016 : [jdb_bnl_seminar.pdf](http://www.star.bnl.gov/protected/lfspectra/jdb/run14/AuAu15/pidRcp/BNL_STAR_Seminar_Feb_24_2016_Brandenburg.pdf)
+<br/><br/>
+
 #### Follow-up : Run16 Vpd L0 Vertex Resolution Plan-b 
 * STAR Trigger Board Meeting, Feb 22, 2016 : [Run16_Trigger_Board_Follow_up.pdf](https://drupal.star.bnl.gov/STAR/system/files/Run16_Trigger_Board_Feb_22_Follow_up.pdf)
 <br/><br/>
